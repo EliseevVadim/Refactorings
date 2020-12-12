@@ -1,1 +1,5 @@
 D:\SoftDevCourseLab4\Refactorings\Refactorings\obj\Debug\Refactorings.csprojAssemblyReference.cache
+D:\SoftDevCourseLab4\Refactorings\Refactorings\bin\Debug\Refactorings.exe
+D:\SoftDevCourseLab4\Refactorings\Refactorings\bin\Debug\Refactorings.pdb
+D:\SoftDevCourseLab4\Refactorings\Refactorings\obj\Debug\Refactorings.exe
+D:\SoftDevCourseLab4\Refactorings\Refactorings\obj\Debug\Refactorings.pdb
