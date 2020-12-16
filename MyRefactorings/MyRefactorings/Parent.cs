@@ -8,7 +8,11 @@ namespace MyRefactorings
     {
         public Parent()
         {
-
-        }       
+            
+        }
+        public void ShowMessage()
+        {
+            Console.WriteLine("Parent should go away");
+        }
     }
 }

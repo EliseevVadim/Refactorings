@@ -44,7 +44,7 @@ namespace MyRefactorings
             //Child2 ch2 = new Child2();
             //ch2.PrintInfo();
             Child3 ch3 = new Child3();
-            ch3.PrintInfo();
+            ch3.ShowMessage();
         }
         static bool IsGoodOne(Student student)
         {
