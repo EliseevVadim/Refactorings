@@ -29,7 +29,17 @@ namespace MyRefactorings
             //{
             //    Console.WriteLine("It's not winter");
             //}
-            
+            int x = int.Parse(Console.ReadLine());
+            if (x > 9 || x < -9) 
+            {
+                Console.WriteLine("Число двузначное");
+                Console.WriteLine("Сравнено!");
+            }
+            else
+            {
+                Console.WriteLine("Число однозначное");
+                Console.WriteLine("Сравнено!");
+            }
         }
         static bool IsGoodOne(Student student)
         {
