@@ -4,7 +4,7 @@ namespace MyRefactorings
 {
     class Program
     {
-        private const int adults_age = 18;
+       // private const int adults_age = 18;
         static void Main(string[] args)
         {
             //PrintTimeNow();
@@ -13,10 +13,20 @@ namespace MyRefactorings
             //secondClass.Demo2();
             //FirstClass first = new FirstClass();
             //first.ExampleMethod();            
-            Human human = new Human(25, false);
-            if (human.GetAge() > adults_age && !human.IsFlatOwner())
+            //Human human = new Human(25, false);
+            //if (human.GetAge() > adults_age && !human.IsFlatOwner())
+            //{
+            //    human.GiveOwnFlat();
+            //}
+            DateTime dateTime = DateTime.Now;
+            int month = dateTime.Month;
+            if (month == 12 || month == 1 || month == 2)
             {
-                human.GiveOwnFlat();
+                Console.WriteLine("It's winter!");
+            }
+            else
+            {
+                Console.WriteLine("It's not winter");
             }
         }
         static void PrintTimeNow()
