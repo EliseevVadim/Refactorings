@@ -6,7 +6,12 @@ namespace MyRefactorings
     {
         static void Main(string[] args)
         {
-            PrintTimeNow();
+            //PrintTimeNow();
+            SecondClass secondClass = new SecondClass();
+            secondClass.Demo1();
+            secondClass.Demo2();
+            FirstClass first = new FirstClass();
+            first.ExampleMethod();
         }
         static void PrintTimeNow()
         {
