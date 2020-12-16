@@ -4,6 +4,7 @@ namespace MyRefactorings
 {
     class Program
     {
+        private const int adults_age = 18;
         static void Main(string[] args)
         {
             //PrintTimeNow();
@@ -11,9 +12,9 @@ namespace MyRefactorings
             //secondClass.Demo1();
             //secondClass.Demo2();
             //FirstClass first = new FirstClass();
-            //first.ExampleMethod();
+            //first.ExampleMethod();            
             Human human = new Human(25, false);
-            if (human.GetAge() > 18 && !human.IsFlatOwner())
+            if (human.GetAge() > adults_age && !human.IsFlatOwner())
             {
                 human.GiveOwnFlat();
             }
