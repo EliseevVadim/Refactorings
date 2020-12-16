@@ -39,10 +39,12 @@ namespace MyRefactorings
             //    Console.WriteLine("Число однозначное");
             //}
             //Console.WriteLine("Сравнено!");
-            Child1 ch1 = new Child1();
-            ch1.PrintInfo();
-            Child2 ch2 = new Child2();
-            ch2.PrintInfo();
+            //Child1 ch1 = new Child1();
+            //ch1.PrintInfo();
+            //Child2 ch2 = new Child2();
+            //ch2.PrintInfo();
+            Child3 ch3 = new Child3();
+            ch3.PrintInfo();
         }
         static bool IsGoodOne(Student student)
         {

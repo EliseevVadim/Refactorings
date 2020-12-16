@@ -12,7 +12,7 @@ namespace MyRefactorings
         }
         public void PrintInfo()
         {
-            Console.WriteLine("Some info");
+            Console.WriteLine("I'm only for child 3!!!!!");
         }
     }
 }
