@@ -6,6 +6,10 @@ namespace MyRefactorings
     {
         static void Main(string[] args)
         {
+            PrintTimeNow();
+        }
+        static void PrintTimeNow()
+        {
             DateTime dt = DateTime.Now;
             int hours = dt.Hour;
             int mins = dt.Minute;
