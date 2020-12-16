@@ -33,9 +33,7 @@ namespace MyRefactorings
         }
         static bool IsGoodOne(Student student)
         {
-            if (student.GetMark() >= 90)
-                return true;
-            if (student.GetAllTestsCount() == student.GetPassedTests())
+            if (student.GetMark() >= 90 || student.GetAllTestsCount() == student.GetPassedTests())
                 return true;
             return false;
         }
