@@ -1,0 +1,11 @@
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.exe
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.deps.json
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.runtimeconfig.json
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.runtimeconfig.dev.json
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.dll
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\bin\Debug\netcoreapp3.1\MyRefactorings.pdb
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\obj\Debug\netcoreapp3.1\MyRefactorings.csprojAssemblyReference.cache
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\obj\Debug\netcoreapp3.1\MyRefactorings.AssemblyInfoInputs.cache
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\obj\Debug\netcoreapp3.1\MyRefactorings.AssemblyInfo.cs
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\obj\Debug\netcoreapp3.1\MyRefactorings.dll
+D:\SoftDevCourseLab4\MyRefactorings\MyRefactorings\obj\Debug\netcoreapp3.1\MyRefactorings.pdb
