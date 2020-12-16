@@ -20,7 +20,7 @@ namespace MyRefactorings
             //}
             DateTime dateTime = DateTime.Now;
             int month = dateTime.Month;
-            if (month == 12 || month == 1 || month == 2)
+            if (IsWinter(month))
             {
                 Console.WriteLine("It's winter!");
             }
@@ -28,6 +28,10 @@ namespace MyRefactorings
             {
                 Console.WriteLine("It's not winter");
             }
+        }
+        static bool IsWinter(int month)
+        {
+            return month == 12 || month == 1 || month == 2;
         }
         static void PrintTimeNow()
         {
