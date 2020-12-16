@@ -29,16 +29,20 @@ namespace MyRefactorings
             //{
             //    Console.WriteLine("It's not winter");
             //}
-            int x = int.Parse(Console.ReadLine());
-            if (x > 9 || x < -9) 
-            {
-                Console.WriteLine("Число двузначное");                
-            }
-            else
-            {
-                Console.WriteLine("Число однозначное");
-            }
-            Console.WriteLine("Сравнено!");
+            //int x = int.Parse(Console.ReadLine());
+            //if (x > 9 || x < -9) 
+            //{
+            //    Console.WriteLine("Число двузначное");                
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Число однозначное");
+            //}
+            //Console.WriteLine("Сравнено!");
+            Child1 ch1 = new Child1();
+            ch1.PrintInfo();
+            Child2 ch2 = new Child2();
+            ch2.PrintInfo();
         }
         static bool IsGoodOne(Student student)
         {
