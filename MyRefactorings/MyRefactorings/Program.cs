@@ -2,6 +2,7 @@
 
 namespace MyRefactorings
 {
+
     class Program
     {
        // private const int adults_age = 18;
@@ -18,16 +19,25 @@ namespace MyRefactorings
             //{
             //    human.GiveOwnFlat();
             //}
-            DateTime dateTime = DateTime.Now;
-            int month = dateTime.Month;
-            if (IsWinter(month))
-            {
-                Console.WriteLine("It's winter!");
-            }
-            else
-            {
-                Console.WriteLine("It's not winter");
-            }
+            //DateTime dateTime = DateTime.Now;
+            //int month = dateTime.Month;
+            //if (IsWinter(month))
+            //{
+            //    Console.WriteLine("It's winter!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("It's not winter");
+            //}
+            
+        }
+        static bool IsGoodOne(Student student)
+        {
+            if (student.GetMark() >= 90)
+                return true;
+            if (student.GetAllTestsCount() == student.GetPassedTests())
+                return true;
+            return false;
         }
         static bool IsWinter(int month)
         {
