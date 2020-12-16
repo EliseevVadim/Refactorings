@@ -8,18 +8,21 @@ namespace MyRefactorings
     {
         public SecondClass()
         {
-            first = new FirstClass();
+
         }
         public void Demo1()
         {
-            first.RequiredMethod();
+            RequiredMethod();
             Console.WriteLine("It's a demo");
         }
         public void Demo2()
         {
-            first.RequiredMethod();
+            RequiredMethod();
             Console.WriteLine("It's a demo too");
         }
-        private FirstClass first;
+        public void RequiredMethod()
+        {
+            Console.WriteLine("Wanna to go to Second Class");
+        }
     }
 }

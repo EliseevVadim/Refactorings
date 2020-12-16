@@ -8,17 +8,14 @@ namespace MyRefactorings
     {
         public FirstClass()
         {
-
-        }
-        public void RequiredMethod()
-        {
-            Console.WriteLine("Wanna to go to Second Class");
-        }
+            second = new SecondClass();
+        }        
         public void ExampleMethod()
         {
             string s = Console.ReadLine();
             Console.WriteLine(s);
-            RequiredMethod();
+            second.RequiredMethod();
         }
+        private SecondClass second;
     }
 }
