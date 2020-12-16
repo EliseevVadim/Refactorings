@@ -6,9 +6,6 @@ namespace MyRefactorings
 {
     class Child1:Parent
     {
-        public void PrintInfo()
-        {
-            Console.WriteLine("Some info");
-        }
+        
     }
 }

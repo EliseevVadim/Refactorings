@@ -10,5 +10,9 @@ namespace MyRefactorings
         {
 
         }
+        public void PrintInfo()
+        {
+            Console.WriteLine("Some info");
+        }
     }
 }
