@@ -9,10 +9,6 @@ namespace MyRefactorings
         public Parent()
         {
 
-        }
-        public void PrintInfo()
-        {
-            Console.WriteLine("I'm only for child 3!!!!!");
-        }
+        }       
     }
 }
