@@ -7,11 +7,16 @@ namespace MyRefactorings
         static void Main(string[] args)
         {
             //PrintTimeNow();
-            SecondClass secondClass = new SecondClass();
-            secondClass.Demo1();
-            secondClass.Demo2();
-            FirstClass first = new FirstClass();
-            first.ExampleMethod();
+            //SecondClass secondClass = new SecondClass();
+            //secondClass.Demo1();
+            //secondClass.Demo2();
+            //FirstClass first = new FirstClass();
+            //first.ExampleMethod();
+            Human human = new Human(25, false);
+            if (human.GetAge() > 18 && !human.IsFlatOwner())
+            {
+                human.GiveOwnFlat();
+            }
         }
         static void PrintTimeNow()
         {
